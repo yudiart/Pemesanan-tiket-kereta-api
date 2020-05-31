@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.wrapper{
+	min-height:800px;
+}
+.header{
+	border-radius:0px;
+}
+
+.box-search{
+	min-height:300px;
+	border-radius:20px ;
+	margin-top:-70px;
+}
+
+
+.form-login{
+	border:1px solid black;
+}
+footer{
+  margin-top:40px;
+  min-height:100px;
+	text-align: justify;
+	border:1px solid black;
+	background:#2A2222;
+	color:white;
+}
+
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 0px;
+}
+
+.box-admin{
+  height:900px;
+}
+
+
+.table-payment{
+  max-height: 600px;
+  background:#2a2a2a;
+  border-radius:10px;
+  overflow-x: auto;
+}
+.table-payment td, .table-payment th {
+  color:white;
+}
