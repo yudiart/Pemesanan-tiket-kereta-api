@@ -1,5 +1,8 @@
 # Sistem Pemesanan Tiket Kereta Api
 
+## Demo
+![](assets/image/home.png)
+
 ## Login user
 Hak akses level Admin/user
 user
@@ -13,8 +16,7 @@ admin
 > password : admin
 
 
-## Demo
-![](assets/image/home.png)
+
 
 ## Feature
 Feature simulasi pemesanan tiket kereta api sebagai berikut
