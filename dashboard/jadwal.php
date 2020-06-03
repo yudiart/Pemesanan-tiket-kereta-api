@@ -1,6 +1,11 @@
 
 <?php 
 	include 'header.php';
+	$id = $_SESSION['user_id'];
+	$level = $_SESSION['level'];
+	if ($level !== 'admin') {
+		header('location: index.php');
+	}
   	include 'sidebar.php';
   	include 'navbar.php'; 
 

@@ -3,6 +3,10 @@
 
 	$_id = $_GET['id'];
 	$_payment_code = $_GET['paymentUrl'];
+	$level = $_SESSION['level'];
+	if ($level !== 'user') {
+		header('location: index.php');
+	}
 	
 	$sql = "SELECT payment.*, t_order.*, jadwal.*
 			FROM  t_order

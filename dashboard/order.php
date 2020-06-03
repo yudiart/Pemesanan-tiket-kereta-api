@@ -1,13 +1,15 @@
 <?php 
 	include 'header.php';
-	include 'sidebar.php';
-	include 'navbar.php';
 	$id = $_SESSION['user_id'];
 	$level = $_SESSION['level'];
-
-	if ($level !== 'user') {
+	if ($level === 'admin') {
 		header('location: index.php');
 	}
+	include 'sidebar.php';
+	include 'navbar.php';
+	
+
+	
 	$sql = "SELECT t_order.*, jadwal.*, payment.id as paid, payment.id_order, payment.payment_code as pacod
 			FROM t_order
 	    	JOIN jadwal ON jadwal.id  = t_order.id_jadwal
