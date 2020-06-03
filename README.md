@@ -3,12 +3,12 @@
 ## Login user
 Hak akses level Admin/user
 user
->username : user2
->password : admin
+> username : user2
+> password : admin
 
 admin
->username : admin
->password : admin
+> username : admin
+> password : admin
 
 
 ## Demo
@@ -18,17 +18,17 @@ admin
 Feature simulasi pemesanan tiket kereta api sebagai berikut
 
 User
->Dashboard
->Order
->Payment_Code
+> Dashboard
+> Order
+> Payment_Code
 
 Admin
->Dashboard
->Create Schedule
->Edit Schedule
->Delete Schedule
->Validation Order
->Log Validation
+> Dashboard
+> Create Schedule
+> Edit Schedule
+> Delete Schedule
+> Validation Order
+> Log Validation
 
 
 ## Authors
