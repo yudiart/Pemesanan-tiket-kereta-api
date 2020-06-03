@@ -20,9 +20,9 @@ $cek = mysqli_num_rows($result);
 		$_SESSION['status'] = 1;
 		$_SESSION['level'] = $level;
 		if ($level === 'admin') {
-			header('Location: admin/index.php');
+			header('Location: dashboard/index.php');
 		}else{
-			header('Location: index.php');
+			header('Location: dashboard/index.php');
 		}
 	}else{
 		header('Location: login.php');

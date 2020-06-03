@@ -27,6 +27,10 @@
 		<div class="jumbotron box-search bg-light">
 			<div class="col-sm-12  overflow-auto">
 				<div class="container">
+					<?php if (isset($_GET['msg'])) {
+						echo'<div class="btn btn-success">'.base64_decode(urldecode($_GET['msg'])).'</div>';
+						header( "refresh:2;url=index.php" );
+					} ?>
 					<h4>Jadwal Kereta Api</h4>
 				    <form action="" method="post">
 				    	<div class="row">

@@ -4,6 +4,8 @@
 			<div class="col-sm-12 mt-5">
 				<div class=" text-center">
 					<p>Copyright &copy; <?php  echo date('Y');?> <a href="http://vodonesia.id" target="_blank">Vodonesia</a></p>
+					<p>Donasi untuk saling menghargai sesama developer</p>
+					<p>BTN 00181-01-61-006815-7 <br/>a/n Mochamad Yudi Sobari</p>
 				</div>
 			</div>
 		</div>

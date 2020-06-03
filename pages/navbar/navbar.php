@@ -9,7 +9,7 @@
 
 				<?php  if (isset($_SESSION['status'])){?>
 					<li class="nav-item active">
-						<a class="nav-link" href="myorder.php">My Order <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="dashboard/index.php">My Dashboard</a>
 					</li>
 				<?php }else{?>
 					<li class="nav-item active">
