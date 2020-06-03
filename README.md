@@ -11,7 +11,27 @@ admin
 >password : admin
 
 
-## Page
-=================================================
-### Page Home
+## Demo
 ![](assets/image/home.png)
+
+## Feature
+Feature simulasi pemesanan tiket kereta api sebagai berikut
+
+User
+>Dashboard
+>Order
+>Payment_Code
+
+Admin
+>Dashboard
+>Create Schedule
+>Edit Schedule
+>Delete Schedule
+>Validation Order
+>Log Validation
+
+
+## Authors
+
+* **Mochamad Yudi Sobari** - *Newbie Web Developers* - [VODONESIA](https://vodonesia.id)
+Projek ini untuk memenuhi tugas Matakuliah Pemrograman Berbasis Website
