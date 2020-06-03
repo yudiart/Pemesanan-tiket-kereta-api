@@ -13,5 +13,13 @@
     "api"
   ],
   "author": "vodonesia",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudiart/Pemesanan-tiket-kereta-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yudiart/Pemesanan-tiket-kereta-api/issues"
+  },
+  "homepage": "https://github.com/yudiart/Pemesanan-tiket-kereta-api#readme"
 }
