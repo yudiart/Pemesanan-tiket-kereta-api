@@ -16,19 +16,8 @@
 		$penumpang = $row['jml_penumpang'];
 		$total_harga = $harga * $penumpang;
 
-	
- ?>
- <body id="page-top">
-
-  <!-- Page Wrapper -->
-  <div id="wrapper">
-
-    <?php include 'sidebar.php';?>
-    <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-      <!-- Main Content -->
-      <div id="content">
-        <?php include 'navbar.php'; ?>
+	include 'sidebar.php';
+    include 'navbar.php'; ?>
         <!-- Begin Page Content -->
         <div class="container-fluid">
           <!-- Page Heading -->
@@ -78,10 +67,7 @@
             </div>
           </div>
         </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
+        <!-- /.container-fluid -->      <!-- End of Main Content -->
 
      
 <?php }?>
