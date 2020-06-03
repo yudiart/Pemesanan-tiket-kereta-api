@@ -1,14 +1,17 @@
-#Sistem Pemesanan Tiket Kereta Api
-## ini adalah tugas matakuliah pemrograman web
-
+# Sistem Pemesanan Tiket Kereta Api
 
 ## Login user
 Hak akses level Admin/user
->user
+user
 >username : user2
 >password : admin
 
->admin
+admin
 >username : admin
 >password : admin
 
+
+## Page
+=================================================
+### Page Home
+![](assets/image/home.png)
