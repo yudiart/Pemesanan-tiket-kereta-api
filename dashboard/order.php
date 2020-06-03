@@ -58,6 +58,7 @@
 							<?php 
 								$i = 1;
 								while($row = mysqli_fetch_array($result)){
+									
 									$harga = $row['harga'];
 									$penumpang = $row['jml_penumpang'];
 									$total_harga = $harga * $penumpang;
@@ -78,7 +79,7 @@
 								<td><?=$harga;?></td>
 								<td><?=$total_harga;?></td>
 								<td>
-									<a href="payment.php?id=<?=$paid;?>&paymentUrl=<?=$pacod;?>" class="btn btn-primary">Bayar</a>
+									<a href="payment.php?id=<?=$paid;?>&paymentUrl=<?=$pacod;?>&o=<?=$row[0]?>" class="btn btn-primary">Bayar</a>
 								</td>
 							</tr>
 							<?php } ?>

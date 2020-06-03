@@ -8,7 +8,8 @@
 
 	
 	$res = mysqli_query($conn,"UPDATE payment SET status='sudah' WHERE id='$_idpayment'");
-
+	$result = mysqli_query($conn,"DELETE from t_order where id='$order' ");
+	var_dump($result);
 	if ($res === true) {
 		header('location: index.php');
 	}
