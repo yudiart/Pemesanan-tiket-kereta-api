@@ -35,7 +35,8 @@ Admin
 * Log Validation
 
 
-## Authors
+## Authors.
+0
 
 * **Mochamad Yudi Sobari** - *Newbie Web Developers* - [VODONESIA](https://vodonesia.id)
 Projek ini untuk memenuhi tugas Matakuliah Pemrograman Berbasis Website

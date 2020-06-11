@@ -37,6 +37,11 @@
           </li>
        <?php }else{?>
           <li class="nav-item">
+            <a class="nav-link" href="Kursi.php">
+              <i class="fas fa-fw fa-chart-area"></i>
+              <span>Kereta</span></a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="jadwal.php">
               <i class="fas fa-fw fa-chart-area"></i>
               <span>Tambah Jadwal</span></a>

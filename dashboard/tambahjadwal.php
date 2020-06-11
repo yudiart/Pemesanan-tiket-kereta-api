@@ -34,6 +34,10 @@ require 'navbar.php';
 					<label >Harga</label>
 					<input type="text" class="form-control" name="harga" placeholder="harga">
 				</div>
+				<div class="form-group">
+					<label >Limit Penumpang</label>
+					<input type="text" class="form-control" name="limit" placeholder="Limit Penumpang">
+				</div>
 				<div class="col-sm-10">
 					<div class="row">
 						<div class="form-group">

@@ -14,12 +14,6 @@
 			JOIN jadwal ON jadwal.id  = t_order.id_jadwal
 		    WHERE payment.id='$_id'";
 	$result = mysqli_query($conn,$sql);
-
-	while($row = mysqli_fetch_array($result)){
-		$harga = $row['harga'];
-		$penumpang = $row['jml_penumpang'];
-		$total_harga = $harga * $penumpang;
-
 	include 'sidebar.php';
     include 'navbar.php'; ?>
         <!-- Begin Page Content -->
@@ -39,6 +33,12 @@
 							<div class="title">
 								<div class="col-sm-12">		
 									<table class="table table-bordered">
+										<?php 
+										while($row = mysqli_fetch_array($result)){
+											$harga = $row['harga'];
+											$penumpang = $row['jml_penumpang'];
+											$total_harga = $harga * $penumpang;
+										 ?>
 									  <tbody class="text-left">
 									  	<tr>
 									      <th scope="row">Kode Pembayaran</th>
@@ -46,11 +46,11 @@
 									    </tr>
 									    <tr>
 									      <th scope="row">Harga</th>
-									      <td><?=$row['harga']?></td>
+									      <td><?=$harga?></td>
 									    </tr>
 									    <tr>
 									      <th scope="row">Jumlah Penumpang</th>
-									      <td><?=$row['jml_penumpang'];?></td>
+									      <td><?=$penumpang;?></td>
 									    </tr>
 									    <tr>
 									        <td>
@@ -59,6 +59,7 @@
 									      <td><h3><?= $total_harga;?></h3></td>
 									    </tr>
 									  </tbody>
+									  <?php }?>
 									</table>										
 								</div>
 								<div class="col-sm-12">
@@ -74,7 +75,7 @@
         <!-- /.container-fluid -->      <!-- End of Main Content -->
 
      
-<?php }?>
+
 <?php include 'footer.php'; ?>
 
 

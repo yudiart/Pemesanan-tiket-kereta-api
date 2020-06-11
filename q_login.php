@@ -22,7 +22,7 @@ $cek = mysqli_num_rows($result);
 		if ($level === 'admin') {
 			header('Location: dashboard/index.php');
 		}else{
-			header('Location: dashboard/index.php');
+			header('Location: index.php');
 		}
 	}else{
 		header('Location: login.php');
